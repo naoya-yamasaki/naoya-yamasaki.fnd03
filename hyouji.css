@@ -1,0 +1,114 @@
+.bestDisplay,
+.countUp,
+.roundSum {
+    background: linear-gradient(135deg, #0075c1 0%, #00a8e8 100%);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 15px rgba(0, 117, 193, 0.4);
+    transition: transform 0.3s ease;
+
+    flex: 1;
+    /* 各ボタンを同じ幅にする */
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.bestDisplay:hover,
+.countUp:hover,
+.roundSum:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 117, 193, 0.5);
+}
+
+
+
+#screen1,
+#screan2,
+#screan3 {
+    visibility: hidden;
+}
+
+
+#bestScore {
+    font-size: 3rem;
+    color: #333;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#h1 {
+    text-align: center
+}
+
+body {
+    margin: 100px;
+    padding: 32px 16px;
+    font-family: sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+#png1 {
+    text-align: center;
+
+}
+
+.dart {
+    text-align: center
+}
+
+#num1,
+#num2,
+#num3,
+#sum,
+#sumInput {
+    width: 100px;
+    height: 50px;
+    font-size: 100%;
+
+    margin: 5px;
+    font-weight: bold;
+    color: #6091d3;
+    background: #FFF;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+
+}
+
+#screen1 {
+    text-align: center;
+    padding: 16px;
+    margin: 70px;
+    color: #474747;
+    border: double 5px #4ec4d3;
+    /* flex-grow: 1; */
+
+
+}
+
+#screan2,
+#screan3 {
+    text-align: center;
+    /* padding: 16px; */
+    margin: 70px;
+    color: #474747;
+    border: double 5px #4ec4d3;
+    /* flex-grow: 1; */
+}
+
+#sc23 {
+    flex-grow: 1;
+}
+
+#all {
+    display: flex;
+}
