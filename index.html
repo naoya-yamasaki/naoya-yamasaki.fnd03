@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="stylesheet" href="hyouji.css">
+</head>
+
+<body>
+  <div id="png1"><img src="darts.png"></div>
+  <h1 id="h1">ダーツカウントアップ計算機</h1>
+  <div class="dart">
+    <button class="countUp">カウントアップ計算</button>
+    <button class="roundSum">合計スコア入力</button>
+    <button class="bestDisplay">ベストスコア更新</button>
+  </div>
+
+  <div id="all">
+    <!-- <form> -->
+
+      <div id="screen1">
+        <p>
+          <label for="name">入った値を入力してください（例：シングルの1はS1,Bullはb）</label>
+        </p>
+
+        <label for="firstThrow">一投目&emsp;&emsp;</label>
+        <input type="text" id="num1" placeholder="1~20" />
+        <br>
+        <label for="secondThrow">二投目&emsp;&emsp;</label>
+        <input type="text" id="num2" placeholder="1~20" />
+        <br>
+        <label for="thirdThrow">三投目&emsp;&emsp;</label>
+        <input type="text" id="num3" placeholder="1~20" />
+        <br>
+        <label for="thirdThrow">現在の合計</label>
+        <input type="text" id="sum" />
+        <br>
+        <p>
+          <input type="button" value="次のラウンドへ" id="calcBtn">
+          <input type="reset" value="リセット" id="initialize">
+        </p>
+      </div>
+    <!-- </form> -->
+
+
+
+    <div id="sc23">
+      <div id="screan2">
+       <p> <label for="name2">8Rの合計スコアを入力してください</label></p>
+        <br>
+        <input type="text" id="sumInput" placeholder="0~1440" />
+        <p>
+          <button id="registration">登録</button>
+        </p>
+      </div>
+
+
+      <div id="screan3">
+        <p id="bestScore">ベストスコア: <span id="score-area"></span></p>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- 上記の３つを押したらそれぞれの画面に遷移し、テキストボックスに入力フォームを作る -->
+  <!-- 自己ベストは５つくらい出す予定 -->
+  <img>
+  <h3></h3>
+  <script type="text/javascript" src="script.js"></script>
+  </div>
+</body>
+
+</html>
